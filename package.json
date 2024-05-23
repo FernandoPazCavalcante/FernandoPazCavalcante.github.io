@@ -1,0 +1,14 @@
+{
+  "name": "FernandoPazCavalcante.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "repository": "https://github.com/FernandoPazCavalcante/FernandoPazCavalcante.github.io.git",
+  "author": "Fernando Paz Silva Cavalcante <nandopaz_copas@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "app:install": "bundle install",
+    "start:app": "bundle exec jekyll serve",
+    "start": "docker-compose --profile app up -V --build -d"
+  }
+}
