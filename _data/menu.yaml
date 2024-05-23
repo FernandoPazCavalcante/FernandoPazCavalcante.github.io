@@ -1,16 +1,16 @@
 entries:
   - title: info
     entries:
-      - title: Just a simple site
+      - title: Just a simple website
 
-  - title: all posts
+  - title: my thoughts.
     post_list:
       limit: 5
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: thoughts by category
     post_list:
       category: nothing
       show_more: true
