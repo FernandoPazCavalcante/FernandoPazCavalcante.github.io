@@ -1,21 +1,21 @@
 entries:
-  - title: info
-    entries:
-      - title: Just a simple website
+  #- title: info
+  #  entries:
+  #    - title: Just a simple website
 
-  - title: my thoughts.
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+  #- title: my thoughts.
+  #  post_list:
+  #    limit: 5
+  #    show_more: true
+  #    show_more_text: See archive...
+  #    show_more_url: archive.html
 
-  - title: thoughts by category
-    post_list:
-      category: nothing
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: nothing-archive.html
+  #- title: thoughts by category
+  #  post_list:
+  #    category: nothing
+  #    show_more: true
+  #    show_more_text: See more posts...
+  #    show_more_url: nothing-archive.html
 
 
   # - title: another list
