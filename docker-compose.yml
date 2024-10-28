@@ -1,0 +1,10 @@
+services:
+  fernandopazcavalcantegithub:
+    image: fernandopazcavalcantegithub
+    restart: always
+    command: bundle exec jekyll serve --host 0.0.0.0 --config _config_docker.yaml
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 4000:4000
