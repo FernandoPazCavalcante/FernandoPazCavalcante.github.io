@@ -6,7 +6,8 @@ Hey, I'm Fernando — a Senior Software Engineer based in São Paulo, Brazil,
 working remotely and spending most of my time thinking about how software
 systems are designed, how they scale, and how they bring people together.
 
-I've been writing code for 7+ years, mostly around distributed systems, backend
+{% assign years = site.time | date: "%Y" | plus: 0 | minus: 2018 %}
+I've been writing code for {{ years }}+ years, mostly around distributed systems, backend
 architecture, and cloud infrastructure. My career has taken me through
 fintech, e-commerce, and blockchain, and what keeps me going is always the same
 thing: building software that actually connects people and matters. I believe
