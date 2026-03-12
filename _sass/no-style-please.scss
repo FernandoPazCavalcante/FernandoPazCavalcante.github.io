@@ -33,7 +33,8 @@
     overflow-wrap: break-word;
   }
   
-  a, a:visited { color: inherit; }
+  a { color: blue; }
+  a:visited { color: blue; }
 
   .post-meta { text-align: right; }
   
