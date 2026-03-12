@@ -92,3 +92,39 @@
     display: block;
     margin: 0 auto;
   }
+
+  .blog-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 0.6rem 0;
+    }
+
+    .blog-date {
+      margin-right: 0.5rem;
+      opacity: 0.6;
+    }
+
+    .blog-category {
+      margin-left: 0.5rem;
+      font-size: 13px;
+      opacity: 0.5;
+    }
+  }
+
+  .site-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
