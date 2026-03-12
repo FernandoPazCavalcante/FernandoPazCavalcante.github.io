@@ -2,9 +2,27 @@
 
 This file provides guidance for agentic coding agents working on this repository.
 
+## Workflow Rules
+
+- **Never auto-commit.** Always show changes and wait for explicit approval before committing.
+- **Commit messages** must follow Conventional Commits (`feat:`, `fix:`, `refactor:`, `docs:`, etc.) — short and direct.
+- **Default branch** is `master`.
+
 ## Project Overview
 
 This is a **Jekyll 4 static site** hosted on GitHub Pages. It uses the [`no-style-please`](https://github.com/riggraz/no-style-please) theme - a minimalist, monospace theme with dark mode by default.
+
+### Design Decisions
+- Dark mode uses CSS `filter: invert(1)` — colors defined in CSS are inverted on screen. For example, `color: blue` appears yellow in dark mode.
+- Links use `color: blue` (which inverts to yellow in dark mode). Both `a` and `a:visited` are set to `blue` to prevent visited color changes.
+- Navbar (`_includes/navbar.html`) is right-aligned, included in `default.html`, and appears on every page.
+- The homepage description is intentionally short and casual — avoid verbose bios.
+
+### Key External Links
+- **LazySwap**: https://lazyswap.app (Fernando's project, linked in navbar)
+- **Blog subdomain**: `blog.fernandocavalcante.com` — intended to redirect to the `/blog` page via Cloudflare (not yet configured)
+- **GitHub**: https://github.com/FernandoPazCavalcante
+- **Contact email**: contact@fernandocavalcante.com
 
 ## Build Commands
 
