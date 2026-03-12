@@ -33,6 +33,8 @@
     overflow-wrap: break-word;
   }
   
+  a, a:visited { color: inherit; }
+
   .post-meta { text-align: right; }
   
   h2, h3, h4, h5, h6 { margin-top: 3rem; }
